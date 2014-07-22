@@ -100,7 +100,7 @@ AM_CONDITIONAL(WITH_PYTHON3, [test $with_python3 = yes])
 [fi]
 
 # Check BFD
-AC_CHECK_LIB([bfd], [main])
+#AC_CHECK_LIB([bfd], [main])
 
 # elfutils
 AC_CHECK_HEADERS([dwarf.h elfutils/libdw.h elfutils/libdwfl.h gelf.h libelf.h])
